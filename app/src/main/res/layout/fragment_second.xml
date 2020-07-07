@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result_title"
+        android:text="Employee Info"
+        android:textSize="30dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result_id"
+        android:text="EmpId:"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result_name"
+        android:text="Name:"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result_email"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result_mobile"
+        android:text="Mobile:"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
