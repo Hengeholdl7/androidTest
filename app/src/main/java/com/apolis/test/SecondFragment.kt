@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.fragment_second.*
 import kotlinx.android.synthetic.main.fragment_second.view.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -42,10 +43,10 @@ class SecondFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         var view = inflater.inflate(R.layout.fragment_second, container, false)
-        view.result_id.text = param1
-        view.result_name.text = param2
-        view.result_email.text = param3
-        view.result_mobile.text = param4
+        view.result_id.text = "EmpId: $param1"
+        view.result_name.text = "Name: $param2"
+        view.result_email.text = "Email: $param3"
+        view.result_mobile.text = "Mobile: $param4"
         return view
     }
 
